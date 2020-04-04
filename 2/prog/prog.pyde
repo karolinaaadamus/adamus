@@ -88,3 +88,4 @@ def mousePressed():
     exit()
     
 # 1,75 pkt
+# dziwnym zbiegiem okoliczności u koleżanki Siehej program wygląda identycznie znaczek w znaczek...
