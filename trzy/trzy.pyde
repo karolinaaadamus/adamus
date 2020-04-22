@@ -6,7 +6,7 @@ def setup():
     textSize(100)
     textAlign(LEFT, TOP)
     noFill()
-    rect(200, 200, 170, 120)
+    rect(200, 200, 170, 120) # kształt miał być niestandardowy, prostokąt raczej nie łapie się w tą definicję
     rect(190, 190, 190, 140)
 def draw():
     global pierwszyKolor, drugiKolor
@@ -36,3 +36,5 @@ def myszkaNadLitera(x, y):
         return 1
     else:
         return 0
+# bardzo PRO rozwiązanie... sama na wszystko wpadłaś?
+# 1,75p
