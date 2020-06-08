@@ -1,0 +1,16 @@
+BANKOMAT:
+
+KlasaBankomat()
+atrybut_login
+metoda:logowanie
+atrybut_dostepne.srodki
+metoda:wypłata gotówki
+metoda:wpłata gotówki
+
+KlasaKlient()
+atrybut_stan.konta
+metoda:sprawdzenie.stanu.konta
+atrybut_login
+metoda:logowanie
+
+
