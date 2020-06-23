@@ -1,0 +1,24 @@
+add_library('pdf')
+
+def setup():
+    global img, moustache, hat
+    size(425,520)
+    img = loadImage("dowod.jpg")
+    imageMode(CORNER)
+    beginRecord(PDF, "dowodpdf.pdf")
+    moustache = loadImage("moustache.png")
+    hat = loadImage("hat.png")
+    background(0)
+def draw():
+    global img, moustache, hat
+    image(img,20,20,400,500)
+    if key == "d":
+        image(moustache,150,280,150 ,200)
+        
+    elif key == "a":
+        image(hat,0,40,450,200)
+        
+
+def mousePressed():
+    endRecord()
+    exit()
