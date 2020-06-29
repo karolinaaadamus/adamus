@@ -20,5 +20,7 @@ def draw():
         
 
 def mousePressed():
-    endRecord()
+    endRecord() # umieszczenie tego po kliknięciu sprawia, że co klatkę dorysowują sie kolejne warstwy obrazów.. można to sprawdzić po tym ,że im dłuzęj trwa program, tym cięższy będzie plik wynikowy.
     exit()
+    
+# 2 pkt
