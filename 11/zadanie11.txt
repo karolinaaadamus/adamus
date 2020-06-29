@@ -1,5 +1,7 @@
 Sklep budowlany (Asortyment: deski, farby do drewna, gwoździe, lina)
-Jan Kowalski :  Kupię deski, farbę do drewna, gwoździe i zrobię płot na swojej działce.
-Karol Nowak: Kupię deski, farbę i linę i zrobię mojemu dziecku huśtawkę.
-Wzorzec: odwiedzający 
-
+Jan Kowalski :  Poproszę deski, farbę do drewna, gwoździe.
+Karol Nowak: Poproszę deski, farbę i linę, co sąsiad budujesz?
+Jan Kowalski: Postawię płot na swojej działce. A pan?
+Karol Nowak: Zrobię mojemu dziecku huśtawkę.
+Wzorzec: odwiedzający  # tak właściwie to prawdziwy odiwedzający powinien czerpać z  tych samych zasobów, a nie części z tych nagromaczonych w sklepie (jak to samo pudełko  z czymś), ale to już szczegół.
+# 1,75pkt
