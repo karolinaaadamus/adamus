@@ -9,3 +9,4 @@ def draw():
         rect (mouseX, mouseY, width, height)
     else:
         clear()
+# 2pkt
