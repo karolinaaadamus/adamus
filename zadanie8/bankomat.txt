@@ -1,0 +1,17 @@
+BANKOMAT:
+
+KlasaBankomat()
+atrybut_login # rozumiem, że logowanie opeatora do bankomatu (by np. uzupełnić w nim banknoty)
+metoda:logowanie
+atrybut_dostepne.srodki
+metoda:wypłata gotówki
+metoda:wpłata gotówki
+
+KlasaKlient() # jeden klient może mieć wiele kont, bardziej jednoznaczna byłaby karta, czy konto
+atrybut_stan.konta
+metoda:sprawdzenie.stanu.konta
+atrybut_login # rozumiem ,że w formie np. PIN do karty?
+metoda:logowanie
+
+# 0,75/1,5pkt za tą część zadania
+
