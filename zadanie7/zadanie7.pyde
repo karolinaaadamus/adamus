@@ -65,4 +65,5 @@ def mouseClicked():
         if isinstance(pet, Dog):
             pet.gimmePaw()
 
-# 1,25pkt    
+# 1,25pkt
+# Praca jest identyczna włącznie z nazwamizwierząt i zakrzyknięciem o chrupki z programem Adriana Mikołajczuka. 
