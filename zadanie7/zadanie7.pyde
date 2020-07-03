@@ -24,19 +24,19 @@ class Dog(Pet):
     def __add__(self, other): 
         return self.name[0]+ ' i ' + other.name[0]
     
-class Parrot(Pet):
+class Mouse(Pet):
     def __init__(self, name):
         self.name = name
         
     def speak(self):
-        text('chrrrupki!', random(50, width-70), random(50, height-50))
-        return 'chrrrupki!'
+        text('pipipi', random(50, width-70), random(50, height-50))
+        return 'pipipi')
     
     def obrazek(self):
         image(loadImage("mouse.jpg"),  0, 0, width, height)
     
-    def __add__(self, other): # miało być odejmowanie
-        return self.name + ' i ' + other.name
+    def __add__(self, other): 
+        return self.name + ' pipipi ' + other.name
         
         
         
@@ -44,14 +44,14 @@ def setup():
     size(600, 600)
     textSize(20)
     
-    zielonka = Parrot('Zielonka')
+    parszywek  = mouse('Parszywek')
     rex = Dog('Rex') 
     skrypcik = Cat('Skrypcik')
     global list_of_pets
-    list_of_pets = [zielonka, rex, skrypcik] 
-    print(zielonka + rex) 
+    list_of_pets = [parszywek, rex, skrypcik] 
+    print(parszywek + rex) 
     
-    zielonka.obrazek()
+    parszywek.obrazek()
 
 
     
@@ -64,6 +64,7 @@ def mouseClicked():
         
         if isinstance(pet, Dog):
             pet.gimmePaw()
+
 
 # 1,25pkt
 # Praca jest identyczna włącznie z nazwamizwierząt i zakrzyknięciem o chrupki z programem Adriana Mikołajczuka. 
