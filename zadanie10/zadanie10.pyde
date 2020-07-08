@@ -58,12 +58,19 @@ def mouseClicked():
             library.addBook(Madzia.returnBook())
  
 class tests(unittest.TestCase):
-    books = ["Naocznosc", "Sens Sztuki", "Harry Potter"]
-    library = Library(books)
-    Madzia = Customer()
     def test1(self):
-        self.assertEqual(self.books[2], "Harry Potter")
+        books = ["Naocznosc", "Sens Sztuki", "Harry Potter"]
+        library = Library(books)
+        self.assertEqual(library.availableBooks, ["Naocznosc", "Sens Sztuki", "Harry Potter"])
     def test2(self):
-        self.assertTrue(self.Madzia.__class__.__name__ == "Customer")
+        Madzia = Customer()
+        self.assertTrue(isinstance(Madzia, Customer)) # zamiast używać pól prywatnych, lepiej użyć metody do teg oprzeznaczonej, któa zresztą wystąpiłą w przykłądowym zadaniu 7 ode mnie
     def test3(self):
-        self.assertFalse(self.library.availableBooks == [])
+        books = ["Naocznosc", "Sens Sztuki", "Harry Potter"]
+        library = Library(books)
+        self.assertFalse(library.availableBooks == [])
+        
+if __name__ == '__main__':
+    unittest.main()
+    
+#1,25pkt
